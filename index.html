@@ -142,12 +142,13 @@
     </div>
 </div>
 
+<footer><p id="page-info"></p></footer>
 <script>
   const URL = window.location.href;
   const lastModified = document.lastModified;
   document.getElementById("page-info").textContent = 
-      `Page URL: ${pageURL} | Last Modified: ${lastModified}`;
+      `Page URL: ${URL} | Last Modified: ${lastModified}`;
 </script>
-<footer><p id="page-info"></p></footer>
+
 </body>
 </html>
