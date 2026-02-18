@@ -8,12 +8,22 @@ body{
             margin: 0;
 
         }
+
+
+
 .sectionstart{
     font-family: 'Inter', sans-serif;
     color: #ffffff;
     padding-left: 2rem;
 
 }
+
+section{
+    padding: 30px;
+}
+
+
+
 
 nav{
          display: flex;
@@ -46,6 +56,10 @@ nav a:hover {
   color: #1a1a1a;
 }
 
+
+
+
+
 .social-sidebar {
             position: fixed;
             right: 0;
@@ -58,10 +72,8 @@ nav a:hover {
             background: linear-gradient(135deg, rgba(250, 248, 248, 0.08), rgba(255, 255, 255, 0.02)); 
             display: flex;  
             flex-direction: column;   
-            z-index: 1000;   
+            z-index: 1000;
 }
-
-
 
 .social-sidebar a {
             color: #888888;
@@ -72,8 +84,12 @@ nav a:hover {
             color: #ffffff;            
         }
 
+
+
+
+
 .cover {
-    position: relative; 
+ 
     width: 100%;
     height: 100vh;       
     overflow: hidden;
@@ -86,53 +102,49 @@ nav a:hover {
     top: 0;
     width: 100%;
     height: 100vh;
+    display: block;
     z-index: 2;
+}
+
+.covercaption {
+    position: relative;
+    top: 20%;
+    padding-left: 3rem;
+    text-align: left;
+    z-index: 3  ;
 }
 
 .cover h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 0.9;
-    position: absolute;
     color: rgb(196, 182, 182);           
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);  /* Readable shadow */
-    top: 25%;
-    z-index: 10;
-    margin: 10px;
-    padding-left: 3rem;
-    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    margin-bottom: 1rem; 
 }
 
 .cover blockquote {
-    position: absolute; 
     font-family: sans-serif;
-    font-size: 1rem;
+    font-size: 13px;
     line-height: 1.8;
-    margin-top: 12px;
-    margin-bottom: 0;
-    padding-left: 4rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    color:rgb(220, 202, 202);  
+    color: rgb(220, 202, 202);  
     letter-spacing: 2px;
     text-transform: uppercase;
-    z-index: 10;
-    top: 60%;
-    text-align: left;
+    margin-bottom: 0.5rem; 
 }
 
-.cover cite{
-    position: absolute; 
+.cover cite {
     font-family: sans-serif;
     letter-spacing: 2px;
-    font-size: 1rem;
+    font-size: 13px;
     text-transform: uppercase;
     color: rgb(212, 201, 201);
-    top: 82%;
-    z-index: 10;
-    margin-left: 13%;
-    margin-top: 5px;
+    display: block; 
+    margin-top: 0.5rem;
 }
+
 .cover blockquote:hover{
         animation: fadeIn 1s ease-out 0.5s forwards;
 }
@@ -141,6 +153,9 @@ nav a:hover {
             from { opacity: 0; transform: translateX(2rem); }
             to { opacity: 1; transform: translateX(0); }
         }
+
+
+
 
 
 
@@ -171,6 +186,10 @@ nav a:hover {
     font-size: 16px;
     color: #000000;
 }
+
+
+
+
 
 a {
     display: inline-block;
