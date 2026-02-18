@@ -6,13 +6,7 @@ body{
 .home {
             background: #000000;
             margin: 0;
-
         }
-
-
-
-
-
 
 nav{
          display: flex;
@@ -89,10 +83,6 @@ nav a:hover {
     object-fit: cover;
     width:100%;
     margin-top: 40px;
-    align-content: baseline;
-    border-top: auto;
-    border-bottom: auto;
-    display: block;
     z-index: 2;
 }
 
@@ -101,7 +91,7 @@ nav a:hover {
     top: 20%;
     padding-left: 3rem;
     text-align: left;
-    z-index: 3  ;
+    z-index: 3;
 }
 
 .cover h1 {
@@ -149,7 +139,8 @@ nav a:hover {
     padding-top: auto;
     font-family: 'Inter', sans-serif;
     color: #ffffff;
-    padding-left: 2rem;
+    padding-left: 30px;
+    padding-right: 100px;
     z-index: 3;
 
 }
@@ -162,14 +153,12 @@ section{
 
 
 
-.slider {
-    
+.slider {   
     display: flex;
     overflow-x: auto;   
     scroll-behavior: smooth;
-    width: 72%;
+    width: 100%;
     gap: 20px;
-    padding: 20px;
 }
 .slide{
     position: relative;
