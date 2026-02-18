@@ -199,16 +199,9 @@ a:hover {
   --heading-color: #d6d6d6;
 }
 
-p, li, span {
-  color: var(--text-muted);
-}
 
-h2 {
-  border-bottom: 2px solid var(--accent-primary);
-  display: inline-block;
-  padding-bottom: 0.3rem;
-  margin-bottom: 1rem;
-}
+
+
 .social-sidebar a {
   color: var(--text-muted);
 }
