@@ -197,5 +197,42 @@ a {
 }
 
 a:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+:root {
+  --bg-main: #000000;
+
+  --text-main: #eaeaea;
+  --text-muted: #b8b8b8;
+
+  --accent-primary: #4f8cff;   /* main blue */
+  --accent-secondary: #7aa2ff; /* lighter blue */
+
+  --heading-color: #d6d6d6;
+}
+
+p, li, span {
+  color: var(--text-muted);
+}
+
+h2 {
+  border-bottom: 2px solid var(--accent-primary);
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+.social-sidebar a {
+  color: var(--text-muted);
+}
+.social-sidebar a:hover {
+  color: var(--accent-primary);
+}
+.cover h1 {
+  color: var(--heading-color);
+}
+
+.cover blockquote,
+.cover cite {
+  color: var(--text-muted);
 }
